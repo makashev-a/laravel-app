@@ -2,18 +2,22 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Http\Requests\ContactsRequest;
+use App\Models\Contacts;
 
 class ContactsController extends Controller
 {
     public function submit(ContactsRequest $req)
     {
-//        $validation = $req->validate([
-//            'name' => 'required|max:50',
-//            'email' => 'required|max:100|email:rfc',
-//            'subject' => 'required|min:5|max:50',
-//            'message' => 'required|min:15|max:500'
-//        ]);
+        $contacts = new Contacts();
+        $contacts->name = $req->input('name');
+        $contacts->email = $req->input('email');
+        $contacts->subject = $req->input('subject');
+        $contacts->message = $req->input('message');
+
+        $contacts->save();
+
+        return redirect()->route('home')->with('success', 'Ваше сообщение было успешно отправлено!');
+
     }
 }
