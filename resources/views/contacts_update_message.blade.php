@@ -25,7 +25,7 @@
         <div class="mb-3">
             <label for="message" class="form-label">Сообщение</label>
             <textarea type="text" name="message" placeholder="Ввведите сообщение" id="message"
-                      class="form-control">{{ $data->subject }}</textarea>
+                      class="form-control">{{ $data->message }}</textarea>
         </div>
 
         <button type="submit" class="btn btn-primary">Обновить</button>
