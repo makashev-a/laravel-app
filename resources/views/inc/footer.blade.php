@@ -1,32 +1,30 @@
 <footer class="pt-4 my-md-5 pt-md-5 border-top d-flex justify-content-center">
     <div class="row w-50">
-        <div class="col-4 col-md">
-            <h5>Features</h5>
+        <div class="col-lg-4 col-sm-6 col-12 text-center text-sm-start">
+            <h5>Карта сайта</h5>
             <ul class="list-unstyled text-small">
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('home') }}">Главная</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('about') }}">О нас</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('contacts') }}">Контакты</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('contacts-data') }}">Сообщения</a></li>
             </ul>
         </div>
-        <div class="col-4 col-md">
-            <h5>Resources</h5>
+        <div class="col-lg-4 col-sm-6 d-none d-sm-block">
+            <h5>Карта сайта</h5>
             <ul class="list-unstyled text-small">
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('home') }}">Главная</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('about') }}">О нас</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('contacts') }}">Контакты</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('contacts-data') }}">Сообщения</a></li>
             </ul>
         </div>
-        <div class="col-4 col-md">
-            <h5>About</h5>
+        <div class="col-lg-4 col-sm-6 d-none d-sm-block">
+            <h5>Карта сайта</h5>
             <ul class="list-unstyled text-small">
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
-                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('home') }}">Главная</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('about') }}">О нас</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('contacts') }}">Контакты</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="{{ route('contacts-data') }}">Сообщения</a></li>
             </ul>
         </div>
     </div>

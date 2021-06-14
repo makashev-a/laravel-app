@@ -20,10 +20,10 @@
     @include('inc.messages')
 
     <div class="row">
-        <div class="col-8">
+        <div class="col-lg-8 col-md-12">
             @yield('content')
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-4 d-md-block d-sm-none d-none">
             @include('inc.aside')
         </div>
     </div>

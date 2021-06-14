@@ -5,7 +5,7 @@
 @section('content')
     <h1>Контакты</h1>
 
-    <form action="{{ route('contacts-form') }}" method="post">
+    <form class="mb-3" action="{{ route('contacts-form') }}" method="post">
         @csrf
         <div class="mb-3">
             <label for="name" class="form-label">Ваше имя</label>
