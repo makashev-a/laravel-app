@@ -5,6 +5,7 @@
             <a class="me-3 py-2 text-dark text-decoration-none" href="{{ route('home') }}">Главная</a>
             <a class="me-3 py-2 text-dark text-decoration-none" href="{{ route('about') }}">О нас</a>
             <a class="me-3 py-2 text-dark text-decoration-none" href="{{ route('contacts') }}">Контакты</a>
+            <a class="me-3 py-2 text-dark text-decoration-none" href="{{ route('contacts-data') }}">Сообщения</a>
         </nav>
     </div>
 </header>

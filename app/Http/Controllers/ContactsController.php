@@ -20,4 +20,9 @@ class ContactsController extends Controller
         return redirect()->route('home')->with('success', 'Ваше сообщение было успешно отправлено!');
 
     }
+
+    public function allData()
+    {
+        return view('contacts_messages', ['data' => Contacts::orderBy('created_at', 'desc')->get()]);
+    }
 }
